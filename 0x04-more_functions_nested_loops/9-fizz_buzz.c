@@ -1,11 +1,11 @@
-#include "main.h"
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * main - print the number from 1 to 100
- * 3 multiples print fizz instead of the number
- * 5 print buzz instead of number
+ * 3 multiples print Fizz instead of the number
+ * 5 print buzz instead of numbers
  * 3 & 5 print FizzBuzz
- * Return: 0
+ * Return: Always 0
  */
 int main(void)
 {
@@ -23,10 +23,10 @@ int main(void)
 		else if (i % 3 == 0)
 			printf("%s", f);
 		else if (i % 5 == 0)
-		printf("%s", b);
+			printf("%s", b);
 		else
-		printf("%d", i);
+			printf("%d", i);
 	}
-printf("\n");
-return (0);
+	_printf("\n");
+	return (0);
 }
